@@ -8,17 +8,32 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
-    }
+	@ObservedObject var requestManager = RequestManager()
+	@State private var question: String = ""
+	@State private var answer: String = ""
+
+	var body: some View {
+		VStack {
+			TextField("Enter your question", text: $question)
+				.padding()
+
+			Button("Generate Answer") {
+				requestManager.generateContent(question: question) { response in
+					if let response {
+						self.answer = response
+					}
+				}
+			}
+			.padding()
+
+			Text(answer)
+				.padding(.top, 20)
+
+		}
+		.padding()
+	}
 }
 
 #Preview {
-    ContentView()
+	ContentView()
 }

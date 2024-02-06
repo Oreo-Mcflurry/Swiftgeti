@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "BBAA956C-66A0-4C85-A524-3B1C81A44B0E"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "946341B5-FF41-4D8B-8B33-264C31B22544"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Swiftgeti/GeminiManager/RequestManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "generateContent(question:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "946341B5-FF41-4D8B-8B33-264C31B22544 - e5f24dcbca5d8eec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swiftgeti.RequestManager.generateContent(question: Swift.String, completion: () -&gt; ()) -&gt; ()"
+                  moduleName = "Swiftgeti"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a_mcflurry/Documents/Xcode/SwiftUI/Release/Swiftgeti/Swiftgeti/GeminiManager/RequestManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "4020">
+               </Location>
+               <Location
+                  uuid = "946341B5-FF41-4D8B-8B33-264C31B22544 - e5f24dcbca5d8eec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swiftgeti.RequestManager.generateContent(question: Swift.String, completion: () -&gt; ()) -&gt; ()"
+                  moduleName = "Swiftgeti"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a_mcflurry/Documents/Xcode/SwiftUI/Release/Swiftgeti/Swiftgeti/GeminiManager/RequestManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "4012">
+               </Location>
+               <Location
+                  uuid = "946341B5-FF41-4D8B-8B33-264C31B22544 - 817c642c1f920c4e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swiftgetti.RequestManager.generateContent(question: Swift.String, completion: (Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Swiftgetti"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a_mcflurry/Documents/Xcode/SwiftUI/Release/Swiftgeti/Swiftgeti/GeminiManager/RequestManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "4244">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F0464FCB-87A8-49D9-B534-AB36F763B582"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Swiftgeti/GeminiManager/RequestManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "generateContent(question:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F0464FCB-87A8-49D9-B534-AB36F763B582 - e5f24dcbca5d8e2e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swiftgeti.RequestManager.generateContent(question: Swift.String, completion: () -&gt; ()) -&gt; ()"
+                  moduleName = "Swiftgeti"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a_mcflurry/Documents/Xcode/SwiftUI/Release/Swiftgeti/Swiftgeti/GeminiManager/RequestManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "4440">
+               </Location>
+               <Location
+                  uuid = "F0464FCB-87A8-49D9-B534-AB36F763B582 - e5f24dcbca5d8e2e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swiftgeti.RequestManager.generateContent(question: Swift.String, completion: () -&gt; ()) -&gt; ()"
+                  moduleName = "Swiftgeti"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a_mcflurry/Documents/Xcode/SwiftUI/Release/Swiftgeti/Swiftgeti/GeminiManager/RequestManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "4432">
+               </Location>
+               <Location
+                  uuid = "F0464FCB-87A8-49D9-B534-AB36F763B582 - 817c642c1f920c08"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swiftgetti.RequestManager.generateContent(question: Swift.String, completion: (Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Swiftgetti"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a_mcflurry/Documents/Xcode/SwiftUI/Release/Swiftgeti/Swiftgeti/GeminiManager/RequestManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "4664">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9254678D-9340-4413-8C6A-D2EE485AEB16"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Swiftgeti/GeminiManager/RequestManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "generateContent(question:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9254678D-9340-4413-8C6A-D2EE485AEB16 - e5f24dcbca5d8e2e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swiftgeti.RequestManager.generateContent(question: Swift.String, completion: () -&gt; ()) -&gt; ()"
+                  moduleName = "Swiftgeti"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a_mcflurry/Documents/Xcode/SwiftUI/Release/Swiftgeti/Swiftgeti/GeminiManager/RequestManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "4440">
+               </Location>
+               <Location
+                  uuid = "9254678D-9340-4413-8C6A-D2EE485AEB16 - e5f24dcbca5d8e2e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swiftgeti.RequestManager.generateContent(question: Swift.String, completion: () -&gt; ()) -&gt; ()"
+                  moduleName = "Swiftgeti"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a_mcflurry/Documents/Xcode/SwiftUI/Release/Swiftgeti/Swiftgeti/GeminiManager/RequestManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "4432">
+               </Location>
+               <Location
+                  uuid = "9254678D-9340-4413-8C6A-D2EE485AEB16 - 817c642c1f920c08"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swiftgetti.RequestManager.generateContent(question: Swift.String, completion: (Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Swiftgetti"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a_mcflurry/Documents/Xcode/SwiftUI/Release/Swiftgeti/Swiftgeti/GeminiManager/RequestManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "4664">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "081D4B4D-1356-4D21-866A-50F304B22FA7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Swiftgeti/GeminiManager/RequestManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "generateContent(question:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "081D4B4D-1356-4D21-866A-50F304B22FA7 - e5f24dcbca5d8fc5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swiftgeti.RequestManager.generateContent(question: Swift.String, completion: () -&gt; ()) -&gt; ()"
+                  moduleName = "Swiftgeti"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a_mcflurry/Documents/Xcode/SwiftUI/Release/Swiftgeti/Swiftgeti/GeminiManager/RequestManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "4736">
+               </Location>
+               <Location
+                  uuid = "081D4B4D-1356-4D21-866A-50F304B22FA7 - 635086e04da2681d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Swiftgeti.RequestManager.generateContent(question: Swift.String, completion: () -&gt; ()) -&gt; ()"
+                  moduleName = "Swiftgeti"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a_mcflurry/Documents/Xcode/SwiftUI/Release/Swiftgeti/Swiftgeti/GeminiManager/RequestManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "364">
+               </Location>
+               <Location
+                  uuid = "081D4B4D-1356-4D21-866A-50F304B22FA7 - e5f24dcbca5d8fc5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swiftgeti.RequestManager.generateContent(question: Swift.String, completion: () -&gt; ()) -&gt; ()"
+                  moduleName = "Swiftgeti"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a_mcflurry/Documents/Xcode/SwiftUI/Release/Swiftgeti/Swiftgeti/GeminiManager/RequestManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "4728">
+               </Location>
+               <Location
+                  uuid = "081D4B4D-1356-4D21-866A-50F304B22FA7 - 635086e04da2681d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Swiftgeti.RequestManager.generateContent(question: Swift.String, completion: () -&gt; ()) -&gt; ()"
+                  moduleName = "Swiftgeti"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a_mcflurry/Documents/Xcode/SwiftUI/Release/Swiftgeti/Swiftgeti/GeminiManager/RequestManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "176">
+               </Location>
+               <Location
+                  uuid = "081D4B4D-1356-4D21-866A-50F304B22FA7 - 817c642c1f920d67"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swiftgetti.RequestManager.generateContent(question: Swift.String, completion: (Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Swiftgetti"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a_mcflurry/Documents/Xcode/SwiftUI/Release/Swiftgeti/Swiftgeti/GeminiManager/RequestManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "4960">
+               </Location>
+               <Location
+                  uuid = "081D4B4D-1356-4D21-866A-50F304B22FA7 - 2044ae2432194942"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Swiftgetti.RequestManager.generateContent(question: Swift.String, completion: (Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Swiftgetti"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a_mcflurry/Documents/Xcode/SwiftUI/Release/Swiftgeti/Swiftgeti/GeminiManager/RequestManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "144">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9648C49F-7F31-4650-9DAB-F7E3663EE223"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Swiftgeti/GeminiManager/RequestManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "generateContent(question:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "35B94D49-2252-4074-B8E8-A8004C391456"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Swiftgeti/GeminiManager/RequestManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "generateContent(question:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9D6CCF4B-16A6-49A3-A733-3BB19E862869"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Swiftgeti_Extension/SourceEditorCommand.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "perform(with:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E0060A8C-4B2B-485F-90A1-DC4A111E0F1E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Swiftgeti_Extension/SourceEditorCommand.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "perform(with:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3FA4A424-7E26-486E-9B5A-CDD04ED69271"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Swiftgeti_Extension/SourceEditorCommand.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "perform(with:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -11,7 +11,56 @@
 		0B7D84F52B3A6FDB002CD79B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7D84F42B3A6FDB002CD79B /* ContentView.swift */; };
 		0B7D84F72B3A6FDC002CD79B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B7D84F62B3A6FDC002CD79B /* Assets.xcassets */; };
 		0B7D84FA2B3A6FDC002CD79B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B7D84F92B3A6FDC002CD79B /* Preview Assets.xcassets */; };
+		0B7D85082B3A7035002CD79B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B7D85072B3A7035002CD79B /* Cocoa.framework */; };
+		0B7D850D2B3A7035002CD79B /* SourceEditorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7D850C2B3A7035002CD79B /* SourceEditorExtension.swift */; };
+		0B7D850F2B3A7035002CD79B /* SourceEditorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7D850E2B3A7035002CD79B /* SourceEditorCommand.swift */; };
+		0B7D85142B3A7035002CD79B /* Swiftgetti.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 0B7D85052B3A7035002CD79B /* Swiftgetti.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0BB6BFB62B70AE6800D93950 /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB6BFB52B70AE6800D93950 /* RequestManager.swift */; };
+		0BB6BFBC2B70AF6500D93950 /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB6BFB52B70AE6800D93950 /* RequestManager.swift */; };
+		0BB6BFBE2B70B7B000D93950 /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB6BFBD2B70B7B000D93950 /* APIKeys.swift */; };
+		0BB6BFC12B70B85C00D93950 /* PublicAPIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB6BFC02B70B85C00D93950 /* PublicAPIKeys.swift */; };
+		0BB6BFC32B70B89100D93950 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0BB6BFC22B70B89100D93950 /* .gitignore */; };
+		0BB6BFC72B70BE3B00D93950 /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB6BFBD2B70B7B000D93950 /* APIKeys.swift */; };
+		0BB6BFD12B70C5EB00D93950 /* ModelResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB6BFD02B70C5EB00D93950 /* ModelResponse.swift */; };
+		0BB6BFD22B70C95600D93950 /* ModelResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB6BFD02B70C5EB00D93950 /* ModelResponse.swift */; };
+		0BB6C0062B70D09F00D93950 /* XcodeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B7D85092B3A7035002CD79B /* XcodeKit.framework */; };
+		0BB6C0072B70D09F00D93950 /* XcodeKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0B7D85092B3A7035002CD79B /* XcodeKit.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B7D85122B3A7035002CD79B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B7D84E72B3A6FDB002CD79B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B7D85042B3A7035002CD79B;
+			remoteInfo = Swiftgeti_Extension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0B7D85182B3A7035002CD79B /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0B7D85142B3A7035002CD79B /* Swiftgetti.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BB6C0082B70D09F00D93950 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0BB6C0072B70D09F00D93950 /* XcodeKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0B7D84EF2B3A6FDB002CD79B /* Swiftgeti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swiftgeti.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,7 +68,18 @@
 		0B7D84F42B3A6FDB002CD79B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0B7D84F62B3A6FDC002CD79B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B7D84F92B3A6FDC002CD79B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		0B7D84FB2B3A6FDC002CD79B /* Swiftgeti.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Swiftgeti.entitlements; sourceTree = "<group>"; };
+		0B7D85052B3A7035002CD79B /* Swiftgetti.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Swiftgetti.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B7D85072B3A7035002CD79B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0B7D85092B3A7035002CD79B /* XcodeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XcodeKit.framework; path = Library/Frameworks/XcodeKit.framework; sourceTree = DEVELOPER_DIR; };
+		0B7D850C2B3A7035002CD79B /* SourceEditorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorExtension.swift; sourceTree = "<group>"; };
+		0B7D850E2B3A7035002CD79B /* SourceEditorCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorCommand.swift; sourceTree = "<group>"; };
+		0B7D85102B3A7035002CD79B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B7D85112B3A7035002CD79B /* Swiftgeti_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Swiftgeti_Extension.entitlements; sourceTree = "<group>"; };
+		0BB6BFB52B70AE6800D93950 /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
+		0BB6BFBD2B70B7B000D93950 /* APIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeys.swift; sourceTree = "<group>"; };
+		0BB6BFC02B70B85C00D93950 /* PublicAPIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicAPIKeys.swift; sourceTree = "<group>"; };
+		0BB6BFC22B70B89100D93950 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		0BB6BFD02B70C5EB00D93950 /* ModelResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,13 +90,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0B7D85022B3A7035002CD79B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B7D85082B3A7035002CD79B /* Cocoa.framework in Frameworks */,
+				0BB6C0062B70D09F00D93950 /* XcodeKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		0B7D84E62B3A6FDB002CD79B = {
 			isa = PBXGroup;
 			children = (
+				0BB6BFC22B70B89100D93950 /* .gitignore */,
 				0B7D84F12B3A6FDB002CD79B /* Swiftgeti */,
+				0B7D850B2B3A7035002CD79B /* Swiftgeti_Extension */,
+				0B7D85062B3A7035002CD79B /* Frameworks */,
 				0B7D84F02B3A6FDB002CD79B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				0B7D84EF2B3A6FDB002CD79B /* Swiftgeti.app */,
+				0B7D85052B3A7035002CD79B /* Swiftgetti.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,10 +125,12 @@
 		0B7D84F12B3A6FDB002CD79B /* Swiftgeti */ = {
 			isa = PBXGroup;
 			children = (
+				0BB6BFCF2B70C5DF00D93950 /* Model */,
+				0BB6BFBF2B70B84600D93950 /* APIKeys */,
+				0BB6BFB42B70A2A800D93950 /* GeminiManager */,
 				0B7D84F22B3A6FDB002CD79B /* SwiftgetiApp.swift */,
 				0B7D84F42B3A6FDB002CD79B /* ContentView.swift */,
 				0B7D84F62B3A6FDC002CD79B /* Assets.xcassets */,
-				0B7D84FB2B3A6FDC002CD79B /* Swiftgeti.entitlements */,
 				0B7D84F82B3A6FDC002CD79B /* Preview Content */,
 			);
 			path = Swiftgeti;
@@ -69,6 +144,51 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		0B7D85062B3A7035002CD79B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B7D85072B3A7035002CD79B /* Cocoa.framework */,
+				0B7D85092B3A7035002CD79B /* XcodeKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0B7D850B2B3A7035002CD79B /* Swiftgeti_Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0B7D850C2B3A7035002CD79B /* SourceEditorExtension.swift */,
+				0B7D850E2B3A7035002CD79B /* SourceEditorCommand.swift */,
+				0B7D85102B3A7035002CD79B /* Info.plist */,
+				0B7D85112B3A7035002CD79B /* Swiftgeti_Extension.entitlements */,
+			);
+			path = Swiftgeti_Extension;
+			sourceTree = "<group>";
+		};
+		0BB6BFB42B70A2A800D93950 /* GeminiManager */ = {
+			isa = PBXGroup;
+			children = (
+				0BB6BFB52B70AE6800D93950 /* RequestManager.swift */,
+			);
+			path = GeminiManager;
+			sourceTree = "<group>";
+		};
+		0BB6BFBF2B70B84600D93950 /* APIKeys */ = {
+			isa = PBXGroup;
+			children = (
+				0BB6BFBD2B70B7B000D93950 /* APIKeys.swift */,
+				0BB6BFC02B70B85C00D93950 /* PublicAPIKeys.swift */,
+			);
+			path = APIKeys;
+			sourceTree = "<group>";
+		};
+		0BB6BFCF2B70C5DF00D93950 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0BB6BFD02B70C5EB00D93950 /* ModelResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -79,15 +199,39 @@
 				0B7D84EB2B3A6FDB002CD79B /* Sources */,
 				0B7D84EC2B3A6FDB002CD79B /* Frameworks */,
 				0B7D84ED2B3A6FDB002CD79B /* Resources */,
+				0B7D85182B3A7035002CD79B /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B7D85132B3A7035002CD79B /* PBXTargetDependency */,
+			);
+			name = Swiftgeti;
+			packageProductDependencies = (
+			);
+			productName = Swiftgeti;
+			productReference = 0B7D84EF2B3A6FDB002CD79B /* Swiftgeti.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0B7D85042B3A7035002CD79B /* Swiftgeti_Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B7D85152B3A7035002CD79B /* Build configuration list for PBXNativeTarget "Swiftgeti_Extension" */;
+			buildPhases = (
+				0B7D85012B3A7035002CD79B /* Sources */,
+				0B7D85022B3A7035002CD79B /* Frameworks */,
+				0B7D85032B3A7035002CD79B /* Resources */,
+				0BB6C0082B70D09F00D93950 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Swiftgeti;
-			productName = Swiftgeti;
-			productReference = 0B7D84EF2B3A6FDB002CD79B /* Swiftgeti.app */;
-			productType = "com.apple.product-type.application";
+			name = Swiftgeti_Extension;
+			packageProductDependencies = (
+			);
+			productName = Swiftgeti_Extension;
+			productReference = 0B7D85052B3A7035002CD79B /* Swiftgetti.appex */;
+			productType = "com.apple.product-type.xcode-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -97,9 +241,12 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1510;
-				LastUpgradeCheck = 1510;
+				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					0B7D84EE2B3A6FDB002CD79B = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					0B7D85042B3A7035002CD79B = {
 						CreatedOnToolsVersion = 15.1;
 					};
 				};
@@ -113,11 +260,14 @@
 				Base,
 			);
 			mainGroup = 0B7D84E62B3A6FDB002CD79B;
+			packageReferences = (
+			);
 			productRefGroup = 0B7D84F02B3A6FDB002CD79B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				0B7D84EE2B3A6FDB002CD79B /* Swiftgeti */,
+				0B7D85042B3A7035002CD79B /* Swiftgeti_Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -128,7 +278,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B7D84FA2B3A6FDC002CD79B /* Preview Assets.xcassets in Resources */,
+				0BB6BFC32B70B89100D93950 /* .gitignore in Resources */,
 				0B7D84F72B3A6FDC002CD79B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B7D85032B3A7035002CD79B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,12 +297,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BB6BFB62B70AE6800D93950 /* RequestManager.swift in Sources */,
 				0B7D84F52B3A6FDB002CD79B /* ContentView.swift in Sources */,
+				0BB6BFD12B70C5EB00D93950 /* ModelResponse.swift in Sources */,
+				0BB6BFBE2B70B7B000D93950 /* APIKeys.swift in Sources */,
 				0B7D84F32B3A6FDB002CD79B /* SwiftgetiApp.swift in Sources */,
+				0BB6BFC12B70B85C00D93950 /* PublicAPIKeys.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B7D85012B3A7035002CD79B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BB6BFBC2B70AF6500D93950 /* RequestManager.swift in Sources */,
+				0B7D850D2B3A7035002CD79B /* SourceEditorExtension.swift in Sources */,
+				0BB6BFC72B70BE3B00D93950 /* APIKeys.swift in Sources */,
+				0BB6BFD22B70C95600D93950 /* ModelResponse.swift in Sources */,
+				0B7D850F2B3A7035002CD79B /* SourceEditorCommand.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B7D85132B3A7035002CD79B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B7D85042B3A7035002CD79B /* Swiftgeti_Extension */;
+			targetProxy = 0B7D85122B3A7035002CD79B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0B7D84FC2B3A6FDC002CD79B /* Debug */ = {
@@ -181,6 +363,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -200,7 +383,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -244,6 +427,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -257,7 +441,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -268,17 +452,20 @@
 		0B7D84FF2B3A6FDC002CD79B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Swiftgeti/Swiftgeti.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Swiftgeti/Preview Content\"";
 				DEVELOPMENT_TEAM = Y7F2ZW9QG3;
-				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Swiftgetti;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -295,17 +482,20 @@
 		0B7D85002B3A6FDC002CD79B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Swiftgeti/Swiftgeti.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Swiftgeti/Preview Content\"";
 				DEVELOPMENT_TEAM = Y7F2ZW9QG3;
-				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Swiftgetti;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -314,6 +504,62 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Yoo.Swiftgeti;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		0B7D85162B3A7035002CD79B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Swiftgeti_Extension/Swiftgeti_Extension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = Y7F2ZW9QG3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Swiftgeti_Extension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Swiftgetti;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Yoo.Swiftgeti.Swiftgeti-Extension";
+				PRODUCT_NAME = Swiftgetti;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0B7D85172B3A7035002CD79B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Swiftgeti_Extension/Swiftgeti_Extension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = Y7F2ZW9QG3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Swiftgeti_Extension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Swiftgetti;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Yoo.Swiftgeti.Swiftgeti-Extension";
+				PRODUCT_NAME = Swiftgetti;
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -336,6 +582,15 @@
 			buildConfigurations = (
 				0B7D84FF2B3A6FDC002CD79B /* Debug */,
 				0B7D85002B3A6FDC002CD79B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B7D85152B3A7035002CD79B /* Build configuration list for PBXNativeTarget "Swiftgeti_Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B7D85162B3A7035002CD79B /* Debug */,
+				0B7D85172B3A7035002CD79B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
